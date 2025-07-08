@@ -53,5 +53,5 @@ It is worth noting that Mixup is a key factor contributing to the improvement in
 
 Moreover, in addition to offering the TensorFlow version of the models, we have also included a PyTorch version. We believe that the m_SEM_3 method demonstrates significant potential, and its implementation can be found in the TensorFlow version. 
 
-We hope that our open-source contribution will greatly promote research in Urination and Defecation brain-computer interfaces (BCIs). 🌱 Additionally, we will soon upload a complete, end-to-end Urination and Defecation BCI system to our homepage that does not require pre-training. Interested readers are welcome to explore and engage in further discussion! 👋
+We hope that our open-source contribution will greatly promote research in Urination and Defecation brain-computer interfaces (BCIs). Additionally, we will soon upload a complete, end-to-end Urination and Defecation BCI system to our homepage that does not require pre-training. Interested readers are welcome to explore and engage in further discussion! 👋
 
