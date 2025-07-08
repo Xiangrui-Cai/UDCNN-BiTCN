@@ -49,7 +49,7 @@ We would like to express our sincere gratitude to the following papers for provi
 ---
 
 ## 🧩 Details  
-It is worth noting that **Mixup** is a key factor contributing to the improvement in model accuracy. If you have difficulty reproducing the results presented in the paper, please check whether Mixup has been correctly applied to every batch. We have provided our `main.py` file, which illustrates how we implemented Mixup and conducted the training process. 
+It is worth noting that Mixup is a key factor contributing to the improvement in model accuracy. If you have difficulty reproducing the results presented in the paper, please check whether Mixup has been correctly applied to every batch. We have provided our `main.py` file, which illustrates how we implemented Mixup and conducted the training process. 
 
 Moreover, in addition to offering the TensorFlow version of the models, we have also included a PyTorch version. We believe that the m_SEM_3 method demonstrates significant potential, and its implementation can be found in the TensorFlow version. 
 
