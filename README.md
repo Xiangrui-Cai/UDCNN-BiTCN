@@ -14,7 +14,7 @@ UDCNN-BiTCN: Novel Brain-Computer Interface Application: Precise Decoding of Uri
 
 4. We found that SCI patients achieved higher classification accuracy in urination and defecation tasks. In addition, we identified the 0.5–4 Hz (delta band) as the most influential frequency band for classification and explored the underlying reasons.
 
-![Model](./Model.png)
+![Model](./model.png)
 
 ---
 
