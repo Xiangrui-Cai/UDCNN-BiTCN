@@ -1,29 +1,24 @@
 # UDCNN-BiTCN
 UDCNN-BiTCN: Novel Brain-Computer Interface Application: Precise Decoding of Urination and Defecation Motor Attempts in Spinal Cord Injury Patients
 
-# Bi-ACTCNet
-Bi-ACTCNet: A Bidirectional Channel Attention and Mutual-Cross-Attention Temporal Feature Extraction Network for Motor-Rest Classification in Motor Imagery
+Author: Xiangrui Cai, Chuan Xue, Lei Cao*, Jie Jia*, Ziqi Guo, Haoran Xu, Shuyang Zhang, Chunjiang Fan.
 
-Author: Lei Cao, Xiangrui Cai*, Yiling Dong.
+# About UDCNN-BiTCN
+1. This paper proposes a Bidirectional Temporal Convolutional Network model (UDCNN-BiTCN) for decoding urination and defecation movement intentions, which represents the first attempt to decode urination and defecation movement intention tasks.
+   
+2. UDCNN-BiTCN introduces a novel amplitude masking method and the Bi-TCN architecture, and extensive ablation experiments validate the effectiveness of each module.
+   
+3. UDCNN-BiTCN achieves the best performance in withinsubject and within-task, cross-subject and within-task, as well as within-subject and cross-task settings.
 
-# About Bi-ACTCNet
-1. We focus for the first time on the Motor-Rest Classification task and construct the Bi-ACTCNet model to effectively decode this type of task, thus filling a research gap in this area.
-   
-2. We validate the effectiveness of the model on three Motor-Rest Classification datasets.
-   
-3. We propose a bidirectional temporal feature extraction signal processing method and fuse the features of two dimensions using MCA, demonstrating that the reverse features in EEG signals contain additional information that helps improve model accuracy.
-   
-4. We address the issue of insufficient channel interactivity in the ECA channel attention block by proposing the ETCA block.
-
-5. To verify the effectiveness and generalization of the model, we tested it on the 2-class classification of the BCI Competition IV 2a dataset, achieving good results.
+4. We found that SCI patients achieved higher classification accuracy in urination and defecation tasks. In addition, we identified the 0.5–4 Hz (delta band) as the most influential frequency band for classification and explored the underlying reasons.
    
 ![Model](./Model.png)
 
 # About Datasets
-We used four datasets: the Motor Attempt or Resting State Dataset, BCI Competition IV Dataset 1, Physionet Dataset, and BCI Competition IV 2a Dataset. Among them, the Motor Attempt or Resting State Dataset is a private dataset, while the other three are publicly available datasets that can be downloaded and used as input to the model after preprocessing.
+We sincerely apologize that we have not yet made our dataset and the corresponding training models for each subject publicly available. However, we commit to releasing our dataset by the end of 2025 or early 2026.
 
 # Development environment
-We implemented our Bi-ACTCNet model using Python 3.8 and the TensorFlow library on a NVIDIA GeForce RTX 4060 Laptop GPU.
+We implemented our UDCNN-BiTCN model using Python 3.8 and the TensorFlow library on a NVIDIA GeForce RTX 2080 Ti GPU.
 
 · Tensorflow == 2.9
 
@@ -36,7 +31,7 @@ We implemented our Bi-ACTCNet model using Python 3.8 and the TensorFlow library 
 · SciPy == 1.9.3
 
 # References
-The article has currently been accepted by the IEEE Internet of Things Journal.
+The manuscript is currently under submission.
 
 If you have any questions about our paper or code, please feel free to contact us at: 202330310112@stu.shmtu.edu.cn
 
@@ -45,10 +40,6 @@ We would like to express our sincere gratitude to the following papers for provi
 
 Physics-informed attention temporal convolutional network for EEG-based motor imagery classification.
 
-Feature Fusion Based on Mutual-Cross-Attention Mechanism for EEG Emotion Recognition.
-
 # Details
-The data loading script, training code, and model weights for the BCI Competition IV Dataset 1 are provided in preprocess_bci41.py, main_bci41.py, and results_41_fold12, respectively. Readers who are interested can reproduce the results using the model weights included in the results_41_fold12 file.
-
 
 
