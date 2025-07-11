@@ -51,7 +51,9 @@ We would like to express our sincere gratitude to the following papers for provi
 ## 🧩 Details  
 It is worth noting that Mixup is a key factor contributing to the improvement in model accuracy. If you have difficulty reproducing the results presented in the paper, please check whether Mixup has been correctly applied to every batch. We have provided our `main.py` file, which illustrates how we implemented Mixup and conducted the training process. 
 
-Moreover, in addition to offering the TensorFlow version of the models, we have also included a PyTorch version. We believe that the m_SEM_3 method demonstrates significant potential, and its implementation can be found in the TensorFlow version. 
+Secondly, if you intend to reproduce our results, there are a few small details to keep in mind. First, except for the cross-subject tasks, all of our preprocessing includes standardization of the data. Second, the use of AM may not be very critical, and it is perfectly acceptable to reproduce the results without using AM. Finally, if you are unable to replicate our results, please try using the provided main.py file. In this file, the function `get_data()` requires a four-dimensional preprocessed dataset with the shape (trials, 1, channels, times). Of course, if you still encounter difficulties, feel free to contact us! We will surely provide you with the most satisfactory response!!
+
+Moreover, in addition to offering the TensorFlow version of the models, we have also included a PyTorch version (but we haven't used it). We believe that the m_SEM_3 method demonstrates significant potential, and its implementation can be found in the TensorFlow version. 
 
 We hope that our open-source contribution will greatly promote research in Urination and Defecation brain-computer interfaces (BCIs). Additionally, we will soon upload a complete, end-to-end Urination and Defecation BCI system to our homepage that does not require pre-training. Interested readers are welcome to explore and engage in further discussion! 👋
 
