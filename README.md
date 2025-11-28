@@ -35,7 +35,7 @@ We implemented our UDCNN-BiTCN model using Python 3.8 and the TensorFlow library
 ---
 
 ## 📚 References  
-The manuscript is currently under submission. 📝
+X. Cai et al., "A Novel Brain-Computer Interface Application: Precise Decoding of Urination and Defecation Motor Attempts in Spinal Cord Injury Patients," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, doi: 10.1109/TNSRE.2025.3637066.
 
 If you have any questions about our paper or code, please feel free to contact us at: 202330310112@stu.shmtu.edu.cn 📬
 
